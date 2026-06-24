@@ -1,0 +1,18 @@
+$def with(pregunta, respuesta)
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>WebChat</title>
+
+    </head>
+    <body>
+        <form method="POST">
+            <textarea name="response" id="response" readonly>$respuesta</textarea><br>
+            <input name="prompt" id="prompt" value=$pregunta>
+            <button name="enviar" id="enviar" value="enviar">Enviar</button>
+        </form>
+    </body>
+</html>
